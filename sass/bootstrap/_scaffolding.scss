@@ -15,6 +15,17 @@ body {
   background-color: $bodyBackground;
 }
 
+.entry-content {
+  margin: 0;
+  font-family: $baseFontFamily;
+  font-size: $baseFontSize + 2;
+  line-height: $baseLineHeight + 6;
+  color: $textColor;
+}
+
+.entry-content > p {
+  text-indent:2em;
+}
 
 // Links
 // -----

@@ -207,6 +207,24 @@ blockquote {
   }
 }
 
+//blockquote.information {
+//  border-left: 12px solid #080;
+//  background-color: #bfb;
+//  padding: 12px 12px 12px 0;
+//  margin-left: -48px;
+//  padding-left: 48px; 
+//}
+
+blockquote.information {
+  border-left: 12px solid #080;
+  background-color: #bfb;
+  padding: 12px 12px 12px 0;
+  margin-left: 0;
+  padding-left: 48px; 
+  font-size: 1.2em;
+  font-style: italic;
+}
+
 // Quotes
 q:before,
 q:after,

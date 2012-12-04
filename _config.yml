@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://liuhongjiang.github.com/life
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: 猪猫的生活
+subtitle: Life is fucking hard, but you must fuck back.
+author: 左左
 simple_search: http://google.com/search
 description:
 
@@ -33,7 +33,7 @@ destination: public/life
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: rdiscount
+markdown: kramdown
 pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
@@ -67,9 +67,9 @@ github_skip_forks: true
 twitter_user:
 twitter_tweet_count: 4
 twitter_show_replies: false
-twitter_follow_button: true
+twitter_follow_button: false
 twitter_show_follower_count: false
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false

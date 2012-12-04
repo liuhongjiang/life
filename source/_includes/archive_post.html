@@ -1,8 +1,11 @@
-<p style="line-height:120%">
+<p style="line-height:110%">
 {% capture category %}{{ post.categories | size }}{% endcapture %}
-<a href="{{ root_url }}{{ post.url }}" style="font-size:18px">> {{post.title}}.</a>
-<time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate> 发表日期: {{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
+<li>
+<span><time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate> {{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}} </time><span>
+»
+  <a href="{{ root_url }}{{ post.url }}" style="font-size:18px">{{post.title}}</a>
 {% if category != '0' %}
-  <span class="categories">.  标签: {{ post.categories | category_links }}</span>
+  <span class="categories">    标签: {{ post.categories | category_links }}</span>
 {% endif %}
+</li>
 <p>

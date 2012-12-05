@@ -18,13 +18,17 @@ body {
 .entry-content {
   margin: 0;
   font-family: $baseFontFamily;
-  font-size: $baseFontSize + 2;
-  line-height: $baseLineHeight + 6;
+  font-size: $baseFontSize + 4;
+  line-height: $baseLineHeight + 8;
   color: $textColor;
 }
 
 .entry-content > p {
   text-indent:2em;
+}
+
+.entry-content > p > code {
+  text-indent:0em;
 }
 
 // Links

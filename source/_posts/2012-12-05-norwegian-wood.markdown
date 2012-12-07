@@ -6,4 +6,8 @@ comments: true
 categories: 读书笔记
 ---
 
+Coming soon.
+
+<!-- more -->
+
 上周周末，读了村上村树的《挪威的森林》。

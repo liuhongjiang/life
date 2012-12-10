@@ -223,6 +223,33 @@ blockquote.information {
   padding-left: 48px; 
   font-size: 1.2em;
   font-style: italic;
+  font-family: serif;
+}
+
+blockquote.informationsmall {
+  border-left: 12px solid #080;
+  background-color: #bfb;
+  padding: 12px 12px 12px 0;
+  margin-left: 0;
+  padding-left: 48px; 
+  font-style: italic;
+  font-family: serif;
+}
+
+blockquote.information > h4,
+blockquote.informationsmall > h4 {
+  line-height: 240%;
+  padding-left: 50px; 
+}
+
+blockquote.information > h4:before,
+blockquote.informationsmall > h4:before {
+  content: "——";
+}
+
+blockquote.informationsmall > p {
+  font-size: $baseFontSize + 3;
+  line-height: $baseLineHeight + 5;
 }
 
 // Quotes

@@ -3,7 +3,7 @@ layout: post
 title: "读《兄弟》"
 date: 2012-12-10 14:03
 comments: true
-categories: 读书笔记 
+categories: 读书
 ---
 
 最近在看余华的小说《兄弟》，小说分为[《兄弟(上)》](http://book.douban.com/subject/1401425/)和[《兄弟(下)》](http://book.douban.com/subject/1703544/)，小说的上部是非常俏皮的。

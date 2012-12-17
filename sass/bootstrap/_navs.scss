@@ -29,8 +29,8 @@
 // Nav headers (for dropdowns and lists)
 .nav .nav-header {
   display: block;
-  padding: 3px 15px;
-  font-size: 11px;
+  padding: 3px 8px 7px;
+  font-size: 13px;
   font-weight: bold;
   line-height: $baseLineHeight;
   color: $grayLight;
@@ -49,6 +49,7 @@
 .nav-list {
   padding-left: 15px;
   padding-right: 15px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 .nav-list > li > a,

@@ -27,9 +27,16 @@
           </form>
         {% endif %}
 
-		<ul class="nav pull-right">
-			<li><p>Life is fucking hard, but you must fuck back.</p><li>
+        {% if site.motto %}
+        <!-- 
+        <ul class="nav pull-right">
+            <li><p>{{ site.motto }}</p><li>
 		</ul>
+        -->
+        <div class="motto">
+            <p style="text-align: center"> {{ site.motto }} </p> 
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>

@@ -74,6 +74,19 @@ sub {
 // Img border in a's and image quality
 // -------------------------
 
+.entry-content > p > img {
+  max-width: 100%; // Make images inherently responsive
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+  display: block;
+  margin: 0 auto 1.5em;
+  -moz-box-sizing: border-box;
+  border: 0.5em solid #F8F8F8;
+  border-radius: 0.3em 0.3em 0.3em 0.3em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  height: auto;
+}
+
 img {
   max-width: 100%; // Make images inherently responsive
   vertical-align: middle;

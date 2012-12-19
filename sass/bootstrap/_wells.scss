@@ -25,3 +25,6 @@
   padding: 9px;
   @include border-radius(3px);
 }
+#tag-cloud > a{
+  line-height: 110%;
+}

@@ -219,7 +219,7 @@ blockquote.information {
   border-left: 12px solid #080;
   background-color: #bfb;
   padding: 12px 12px 12px 0;
-  margin-left: 0;
+  margin-left: -48px;
   padding-left: 48px; 
   font-size: 1.2em;
   font-style: italic;
@@ -230,7 +230,7 @@ blockquote.informationsmall {
   border-left: 12px solid #080;
   background-color: #bfb;
   padding: 12px 12px 12px 0;
-  margin-left: 0;
+  margin-left: -48px;
   padding-left: 48px; 
   font-style: italic;
   font-family: serif;
@@ -248,6 +248,7 @@ blockquote.informationsmall > h4:before {
 }
 
 blockquote.informationsmall > p {
+  margin: 0 0 6px;
   font-size: $baseFontSize + 3;
   line-height: $baseLineHeight + 5;
 }

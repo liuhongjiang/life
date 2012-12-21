@@ -114,6 +114,11 @@ ol.unstyled {
   list-style: none;
 }
 
+.entry-content > ul, ol > li {
+  line-height: $baseLineHeight + 12;
+  margin: 0 0 $baseLineHeight / 2;
+}
+
 // Description Lists
 dl {
   margin-bottom: $baseLineHeight * 1.5;

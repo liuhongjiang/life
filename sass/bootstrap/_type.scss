@@ -116,7 +116,9 @@ ol.unstyled {
 
 .entry-content > ul, ol > li {
   line-height: $baseLineHeight + 12;
-  margin: 0 0 $baseLineHeight / 2;
+  margin: 0 0 2px 1.5em;
+  font-family: "Times New Roman",Georgia,Serif;
+  font-style: oblique;
 }
 
 // Description Lists

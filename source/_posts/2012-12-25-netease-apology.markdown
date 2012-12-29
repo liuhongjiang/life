@@ -10,7 +10,7 @@ categories: 乱七八糟
 
 下面也贴出这封致歉信
 
-{% img center /images/blogimages/2012/网易客户端致歉信.jpg %}
+{% img center /images/blogimages/2012/netease_apology_letter.jpg %}
 
 <!-- more -->
 

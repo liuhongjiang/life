@@ -233,6 +233,12 @@ blockquote.information {
   font-family: serif;
 }
 
+blockquote.information > p {
+  margin: 0 0 6px;
+  font-size: $baseFontSize + 4;
+}
+
+
 blockquote.informationsmall {
   border-left: 12px solid #080;
   background-color: #bfb;

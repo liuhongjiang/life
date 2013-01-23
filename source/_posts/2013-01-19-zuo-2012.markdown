@@ -3,7 +3,7 @@ layout: post
 title: "左老师的2012"
 date: 2013-01-19 20:54
 comments: true
-categories: 
+categories: 左宝成长记 
 ---
 
 今天写了一篇工作方面的[2012总结](/tech/blog/2013/01/19/2012/)。想想也应该写一篇生活方面的2012总结。

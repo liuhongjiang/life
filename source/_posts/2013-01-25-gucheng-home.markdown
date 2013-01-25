@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "顾城的《回家》"
+title: "顾城《回家》"
 date: 2013-01-25 13:18
 comments: true
 categories: 读书
